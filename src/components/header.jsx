@@ -7,7 +7,7 @@ const Header = () => {
 
   const name = location?.pathname.replace(/^\/|\/$/g, "");
   return (
-    <div className="grid sm:grid-cols-2  lg:grid-cols-3  gap-4 items-center justify-items-stretch my-2">
+    <div className="grid sm:grid-cols-2  lg:grid-cols-3  gap-4  justify-between my-2">
       <div className="font-bold">{name}</div>
       <div>
         <input
@@ -16,7 +16,7 @@ const Header = () => {
         />
       </div>
       <div>
-        <div className="flex space-x-4">
+        <div className="flex lg:justify-end space-x-4">
           <img
             className="w-7 rounded-full"
             src={userData[0]?.imageUrl}

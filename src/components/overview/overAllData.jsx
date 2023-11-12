@@ -6,7 +6,7 @@ const OverAllData = () => {
     <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4   gap-4 items-center justify-items-stretch my-2">
       {OverviewData.map((item, index) => {
         return (
-            <div className="border-2 rounded-md w-full ">
+            <div className="border-2 rounded-md  ">
           <div className="  p-2  ">
             <div className="flex " >
              <p className="flex"> {item?.icon}<span className="ml-3">{item?.total}</span> </p>
