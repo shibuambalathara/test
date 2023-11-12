@@ -7,7 +7,7 @@ const OverAllData = () => {
       {OverviewData.map((item, index) => {
         return (
             <div className="border-2 rounded-md w-full ">
-          <div className=" w-72 p-2  ">
+          <div className="  p-2  ">
             <div className="flex " >
              <p className="flex"> {item?.icon}<span className="ml-3">{item?.total}</span> </p>
             </div>
