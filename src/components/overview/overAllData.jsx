@@ -3,7 +3,7 @@ import { OverviewData } from "../../utils/overviewData";
 
 const OverAllData = () => {
   return (
-    <div className="w-full flex space-x-5">
+    <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4   gap-4 items-center justify-items-stretch my-2">
       {OverviewData.map((item, index) => {
         return (
             <div className="border-2 rounded-md w-full ">

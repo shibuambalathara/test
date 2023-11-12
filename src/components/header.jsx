@@ -7,12 +7,12 @@ const Header = () => {
 
   const name = location?.pathname.replace(/^\/|\/$/g, "");
   return (
-    <div className="w-full flex justify-between my-2">
+    <div className="grid sm:grid-cols-2  lg:grid-cols-3  gap-4 items-center justify-items-stretch my-2">
       <div className="font-bold">{name}</div>
       <div>
         <input
           placeholder="Search"
-          className="bg-gray-100 p-2 rounded-md w-80"
+          className="bg-gray-100 p-2 rounded-md lg:w-80"
         />
       </div>
       <div>

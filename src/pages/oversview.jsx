@@ -23,13 +23,10 @@ const Overview = () => {
   return (
     <div className='w-full space-y-2'>
       <OverAllData/>
-      <div className='md:flex w-full space-x-2'>
-<div className='w-full'>
+      <div className='lg:grid lg:grid-cols-2 lg:gap-2 w-full'>
 
       <BarChart/>
-</div>
-<div className='w-full'><LineChart /></div>
-      
+      <LineChart />
       
     
       </div>
